@@ -1,5 +1,5 @@
 import { useRef, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, NavLink, useLocation, useSearchParams } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, NavLink, useLocation, useSearchParams } from 'react-router-dom';
 import './styles.css'; // Import CSS styles
 
 // Tabs Component
