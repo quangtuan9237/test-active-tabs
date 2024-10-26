@@ -1,0 +1,40 @@
+.tabs {
+    display: flex;
+    cursor: pointer;
+}
+
+.tabs a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    font-weight: bold;
+    border-bottom: 2px solid blue;
+    /* Example active style */
+}
+
+.tab-content {
+    margin-top: 20px;
+}
+
+.item {
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    scroll-margin-top: 20px;
+    /* Prevent overlap with fixed headers if any */
+}
+
+.form-content {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    margin-right: 10px;
+}
